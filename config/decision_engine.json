@@ -1,0 +1,69 @@
+{
+  "version": "5.0",
+  "framework": "10_best_practices_5_rules",
+  "workflow": [
+    "extract_supported_property_facts",
+    "determine_sale_or_rent",
+    "use_or_build_ideal_buyer_persona",
+    "identify_buyer_wants_needs_and_frustrations",
+    "identify_top_property_features_for_persona",
+    "select_one_main_reason_to_care",
+    "select_supporting_features_and_benefits",
+    "translate_features_to_benefits_and_outcomes",
+    "define_property_offer",
+    "evaluate_optional_user_angle",
+    "select_marketplace_intent",
+    "write_headline_around_main_reason",
+    "write_opening_that_continues_headline_story",
+    "build_body_around_one_clear_story",
+    "add_specific_proof",
+    "add_buyer_life_visualization",
+    "format_for_scanability",
+    "select_one_primary_cta",
+    "add_secondary_contact_options_when_supplied",
+    "draft",
+    "score",
+    "revise",
+    "return_final"
+  ],
+  "multiple_ads": {
+    "rule": "one_main_reason_per_ad",
+    "minimum_difference_percent": 75
+  },
+  "optional_angle": {
+    "required": false,
+    "classifications": [
+      "accepted",
+      "refined",
+      "supporting",
+      "replaced"
+    ],
+    "rules": [
+      "Must be supported by verified facts",
+      "Must fit the Ideal Buyer Persona",
+      "Must support one clear main reason",
+      "Must improve qualified-lead potential",
+      "Must not override compliance",
+      "Must not require invented facts"
+    ]
+  },
+  "intent_types": [
+    "problem_solution",
+    "lifestyle",
+    "dream_property",
+    "opportunity_urgency"
+  ],
+  "cta": {
+    "primary": "on_platform_message",
+    "secondary_when_supplied": [
+      "phone",
+      "email",
+      "lead_capture_website"
+    ],
+    "website_preference": "simple landing page capturing name, email, and phone into CRM",
+    "idx_page": "acceptable_but_not_preferred",
+    "website_optional": true,
+    "website_label": "optional_but_recommended",
+    "website_instruction": "If supplied, place website at the end of the CTA section with a short blurb explaining what the buyer can get there, then include the URL."
+  }
+}
