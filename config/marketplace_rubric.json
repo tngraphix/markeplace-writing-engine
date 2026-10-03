@@ -1,0 +1,30 @@
+{
+  "version": "5.0",
+  "scale": "1-10",
+  "minimum_each": 8.5,
+  "minimum_weighted_overall": 8.8,
+  "max_internal_drafts": 5,
+  "categories": [
+    {"name": "headline_clarity", "weight": 8},
+    {"name": "reason_to_stop_strength", "weight": 8},
+    {"name": "ideal_buyer_persona_alignment", "weight": 9},
+    {"name": "one_main_idea_focus", "weight": 9},
+    {"name": "problem_or_desire_alignment", "weight": 8},
+    {"name": "offer_strength", "weight": 8},
+    {"name": "feature_to_benefit_conversion", "weight": 8},
+    {"name": "specific_proof", "weight": 7},
+    {"name": "buyer_life_visualization", "weight": 6},
+    {"name": "readability_and_scanability", "weight": 7},
+    {"name": "cta_strength", "weight": 7},
+    {"name": "qualified_lead_likelihood", "weight": 8},
+    {"name": "duplicate_risk_control", "weight": 4},
+    {"name": "compliance_and_factual_support", "weight": 6}
+  ],
+  "rewrite_process": [
+    "score_draft",
+    "identify_three_weakest_categories",
+    "revise_weak_sections_first",
+    "rescore",
+    "repeat_until_threshold_or_five_drafts"
+  ]
+}
